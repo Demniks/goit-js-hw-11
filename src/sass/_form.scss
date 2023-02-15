@@ -1,0 +1,22 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: rgb(12, 121, 246);
+}
+
+input {
+  padding: 5px;
+  border: none;
+  outline: solid 2px rgb(108, 203, 244);
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 4px;
+  border: none;
+  outline: solid 2px rgb(108, 203, 244);
+  border-radius: 3px;
+  cursor: pointer;
+}
