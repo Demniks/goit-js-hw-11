@@ -31,7 +31,7 @@ export default class PixabayServise {
   resetPage() {
     this.page = 1;
   }
-///////////////////////
+  ///////////////////////
   // setTotal(total) {
   //   return (this.totalPages = total);
   // }
@@ -180,13 +180,15 @@ export default class PixabayServise {
 // }
 
 ////////////////////////////////////////////////
-//WORKING CODE
 // import axios from 'axios';
 // const API_KEY = '33675903-bd7d9339dc8df298be2da6cbf';
 // export default class PixabayServise {
 //   constructor() {
 //     this.page = 1;
 //     this.searchQuery = '';
+//     this.totalHits = 0;
+//     this.per_page = 40;
+//     this.totalPages = 0;
 //   }
 
 //   getImages() {
@@ -200,6 +202,7 @@ export default class PixabayServise {
 
 //     return axios.get(URL).then(({ data }) => {
 //       this.nextPage();
+//       this.totalHits = data.totalHits;
 //       return data.hits;
 //     });
 //   }
@@ -210,4 +213,3 @@ export default class PixabayServise {
 //   resetPage() {
 //     this.page = 1;
 //   }
-// }

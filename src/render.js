@@ -1,3 +1,4 @@
+
 export default function createMarkup(hits) {
   return `<div class="photo-card">
    <a href="${hits.largeImageURL}"><img src="${hits.webformatURL}" alt="${hits.tags}" loading="lazy" /></a>
@@ -21,6 +22,7 @@ export default function createMarkup(hits) {
     </div>
   </div>`;
 }
+
 // export default function renderCardForImages(image) {
 //   return `<div class="photo-card">
 //   <a href="${image.largeImageURL}"><img src="${image.webformatURL}" alt="${image.tags}" loading="lazy" /></a>
